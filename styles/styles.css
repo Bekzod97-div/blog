@@ -125,9 +125,16 @@ body {
     font-size: 18px;
     line-height: 22px;
     color: #222;
+    text-decoration: none;
 }
 .article-content-heading:not(:last-child) {
     margin-bottom: 4px;
+}
+.article-content-heading:hover {
+    color: #1e90ff;
+}
+.article-content-heading:active {
+    opacity: 0.6;
 }
 
 /* Article time uploaded and views icons */
