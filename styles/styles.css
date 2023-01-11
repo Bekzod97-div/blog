@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Bebas Neue", "Arial", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #f9f9f9;
+}
+
+.blog {
+    display: flex;
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Main-blog styles */
+.blog-main {
+  width: 600px;
+  height: 783px;
+}
+
+.blog-main-bg {
+    background-image: url(../img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-main-heading {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 326px;
+    margin-right: 157px;
+    margin-left: 157px;
+    margin-bottom: 24px;
+}
+/* Blog main link styles */
+.blog-main-link {
+    display: block;
+    padding: 12px 24px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 326px;
+}
+
+.blog-main-link:hover {
+    opacity: 0.8;
+}
+.blog-main-link:active {
+    opacity: 0.6;
+}
+
+.blog-main-link::before {
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    background-image: url(../img/Vector.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+    color: #fff;
+    content: "";
+}
+
+/* Article styles */
+.latest-videos {
+    padding: 54px 54px 298px 54px;
+    background-color: #fefefe;
+}
+.latest-videos-heading {
+    font-size: 24px;
+    line-height: normal;
+    color: #222;
+    margin-bottom: 24px;
+
+}
+.latest-videos-line {
+    background-color: 1.5px solid #999;
+    margin-bottom: 24px;
+}
+
+/* Blog article styles */
+.blog-article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.article-img {
+    border-radius: 5px;
+    width: 160px;
+    height: 90px;
+    margin-right:0;
+}
+/* Article content styles */
+.article-content {
+    display: block;
+    padding: 16px;
+    width: 327px;
+}
+.article-content-heading {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222;
+}
+.article-content-heading:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+/* Article time uploaded and views icons */
+.article-content-footer {
+    display: flex;
+    align-items: center;
+}
+
+.time-uploaded {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.time-uploaded::before {
+    display: flex;
+    background-image: url(../img/icon-clock.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    color: #888;
+    content: "";
+}
+
+/* Views styles */
+.views {
+    display: flex;
+    align-items: center;
+}
+.views::before {
+    width: 14px;
+    height: 14px;
+    color: #888;
+    background-image: url(../img/icon-views.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+    content: "";
+}
+
+.article-content-footer-text {
+font-family: "Roboto Condensed", "Arial", sans-serif;
+font-size: 12px;
+line-height: normal;
+color: #888;
+}
+
+/* Upload button styles */
+.upload-btn {
+    display: block;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 700;
+    padding: 12px 209px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 298px;
+    cursor: pointer;
+}
+.upload-btn:hover {
+    opacity: 0.8;
+}
+.upload-btn:active {
+    opacity: 0.6;
+}
